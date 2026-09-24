@@ -22,19 +22,19 @@ k(5);
 System.out.println();
 k(2);
 System.out.println("\n\nHey, I ought to leave young thing alone\nBut aint't no sunshine when she's gone, whoa-whoa");
-gone();
+g();
 System.out.println("Only darkness every day\n");
-gone();
+g();
 System.out.println("And this house just ain't no home\n");
-away();
-away();
-away();
-away();
+a();
+a();
+a();
+a();
 }  
-public static void gone() {
+public static void g() {
 System.out.println("Ain't no sunshine when she's gone");
 }
-public static void away() {
+public static void a() {
 System.out.println("Anytime she goes away");
 }
 public static void k(int n) {
