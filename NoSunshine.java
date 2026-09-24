@@ -1,14 +1,14 @@
 public class NoSunshine {
 public static void main(String[] args) { 
-gone();
+g();
 System.out.println("It's not warm when she's away");
-gone();
+g();
 System.out.println("And she's always gone too long");
-away();
+a();
 System.out.println("\nWonder this time where she's gone\nWonder if she's gone to stay");
-gone();
+g();
 System.out.println("And this house just ain't no home");
-away();
+a();
 System.out.print("And ");
 k(4);
 System.out.println();
