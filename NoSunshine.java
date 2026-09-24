@@ -21,34 +21,28 @@ n("");
 k(5);
 n("");
 k(2);
-System.out.println("\n\nHey, I ought to leave young thing alone\nBut aint't no sunshine when she's gone, whoa-whoa");
+n("\n\nHey, I ought to leave young thing alone\nBut aint't no sunshine when she's gone, whoa-whoa");
 g();
-System.out.println("Only darkness every day\n");
+n("Only darkness every day\n");
 g();
-System.out.println("And this house just ain't no home\n");
+n("And this house just ain't no home\n");
 a();
 a();
 a();
 a();
 }  
+public static void n(String line){
+System.out.println(line);
+}
 public static void g() {
-System.out.println("Ain't no sunshine when she's gone");
+n("Ain't no sunshine when she's gone");
 }
 public static void a() {
-System.out.println("Anytime she goes away");
+n("Anytime she goes away");
 }
 public static void k(int n) {
 for (int g = 0; g < n; g++) { 
 System.out.print("I know, ");
 }
 }
-public static void n(String line){
-System.out.println(line);
-
-
-}
-
-
-
-
 }
