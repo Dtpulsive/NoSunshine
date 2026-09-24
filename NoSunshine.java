@@ -1,25 +1,25 @@
 public class NoSunshine {
 public static void main(String[] args) { 
 g();
-System.out.println("It's not warm when she's away");
+n("It's not warm when she's away");
 g();
-System.out.println("And she's always gone too long");
+n("And she's always gone too long");
 a();
-System.out.println("\nWonder this time where she's gone\nWonder if she's gone to stay");
+n("\nWonder this time where she's gone\nWonder if she's gone to stay");
 g();
-System.out.println("And this house just ain't no home");
+n("And this house just ain't no home");
 a();
-System.out.print("And ");
+n("And ");
 k(4);
-System.out.println();
+n("");
 k(5);
-System.out.println();
+n("");
 k(5);
-System.out.println();
+n("");
 k(5);
-System.out.println();
+n("");
 k(5);
-System.out.println();
+n("");
 k(2);
 System.out.println("\n\nHey, I ought to leave young thing alone\nBut aint't no sunshine when she's gone, whoa-whoa");
 g();
@@ -42,4 +42,13 @@ for (int g = 0; g < n; g++) {
 System.out.print("I know, ");
 }
 }
+public static void n(String line){
+System.out.println(line);
+
+
+}
+
+
+
+
 }
