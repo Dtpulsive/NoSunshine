@@ -34,14 +34,14 @@ a();
 public static void n(String line){
 System.out.println(line);
 }
-public static void g() {
+public static void g(){
 n("Ain't no sunshine when she's gone");
 }
-public static void a() {
+public static void a(){
 n("Anytime she goes away");
 }
-public static void k(int n) {
-for (int g = 0; g < n; g++) { 
+public static void k(int n){
+for (int g=0;g<n;g++){ 
 System.out.print("I know, ");
 }
 }
