@@ -31,8 +31,8 @@ a();
 a();
 a();
 }  
-public static void n(String line){
-System.out.println(line);
+public static void n(String l){
+System.out.println(l);
 }
 public static void g(){
 n("Ain't no sunshine when she's gone");
